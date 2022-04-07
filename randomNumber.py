@@ -1,7 +1,7 @@
-from random import randint
+import random 
 
 
-randomNumber = randint(1,20)
+randomNumber = random.randint(1,20)
 chances = 5
 
 print("I have a number in my head that is between 1 and 20. Try To Guess it!!!")
